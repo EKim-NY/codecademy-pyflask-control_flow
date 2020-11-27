@@ -1,3 +1,15 @@
+def dave_check(user_name):
+  if user_name == "Dave":
+    return "Get off my computer Dave!"
+  elif user_name == "angela_catlady_87": 
+    return "I know it is you Dave! Go away!" 
+
+# Enter a user name here, make sure to make it a string
+user_name = "Dave" 
+print(dave_check(user_name))
+
+
+
 def greater_than(x, y): 
   if x > y: 
     return x
@@ -13,3 +25,16 @@ def graduation_reqs(credits):
     return "Nice try! Stay in school, buddy."
 
 print(graduation_reqs(120)) 
+
+
+
+statement_one = (2 + 2 + 2 >= 6) and (-1 * -1 < 0)
+statement_two = (4 * 2 <= 8) and (7 - 1 == 6)
+
+def graduation_reqs(credits, gpa):
+  if credits >= 120 and gpa >= 2.0:
+    return "You meet the requirements to graduate!" 
+
+
+
+
